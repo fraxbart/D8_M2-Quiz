@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./game.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>QuizGame-Gioco</title>
+</head>
+<body cz-shortcut-listen="true">
+    <div class="container">
+        <div id="game" class="justify-center flex-column">
+            <div class="box">
+            <div class="box-item">
+                <p id="progressText" class="box-prefix">
+                    Question
+                </p>
+                <div id="progressBar">
+                        <div id="progressBarFull"></div>
+                </div>
+            </div>
+            <div class="box-item">
+                <p class="box-prefix">
+                    Punteggio
+                </p>
+                <h1 class="box-main-text" id="Punteggio">
+                    0
+                </h1>
+            </div>
+        </div>
+        <h3 id="question">Qaule è la risposta alla seguente questions?</h3>
+        <div class="scelta-container">
+            <p class="scelta-prefix">A</p>
+            <p class="scelta-text" data-number="1">scelta</p>
+        </div>
+        <div class="scelta-container">
+            <p class="scelta-prefix">B</p>
+            <p class="scelta-text" data-number="2">scelta2</p>
+        </div>
+        <div class="scelta-container">
+            <p class="scelta-prefix">C</p>
+            <p class="scelta-text" data-number="2">scelta3</p>
+        </div>
+        <div class="scelta-container">
+            <p class="scelta-prefix">D</p>
+            <p class="scelta-text" data-number="4">scelta4</p>
+        </div>
+        </div>
+    </div>  
+    <script src="./quiz.js"></script>
+</body>
+</html>
